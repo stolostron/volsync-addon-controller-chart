@@ -3,7 +3,7 @@ org: stolostron
 global:
   pullPolicy: Always
   imageOverrides:
-    volsync_addon_controller: "quay.io/tflower/volsync-addon-controller:latest"
+    volsync_addon_controller: "quay.io/stolostron/volsync-addon-controller:latest"
 
 arch:
   - amd64
